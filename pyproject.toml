@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "phynance-stop-loss-pct"
+version = "0.1.0"
+description = ""
+authors = ["Lee Rainwater <lee@rainwater.one>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yfinance = "^0.2.41"
+datetime = "^5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
